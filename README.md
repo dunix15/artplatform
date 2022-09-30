@@ -14,6 +14,9 @@ Participants from either side of the market need to be able to accomplish four m
 - View open orders `GET /v1/orders/`
 - View completed orders (transactions) `GET /v1/transactions/?user_id={user_id}`
 
+After new order is placed celery worker is responsible for matching sell and buy orders to determine 
+when they can be completed and for recording the transactions.
+
 ## Run Locally
 
 Clone the project
