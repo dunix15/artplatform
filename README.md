@@ -17,6 +17,11 @@ Participants from either side of the market need to be able to accomplish four m
 After new order is placed celery worker is responsible for matching sell and buy orders to determine 
 when they can be completed and for recording the transactions.
 
+### Flow:
+
+New order -> matching task is added to redis -> celery worker checks if transaction can be created.
+
+
 ## Run Locally
 
 Clone the project
