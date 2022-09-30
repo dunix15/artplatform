@@ -1,4 +1,4 @@
-FROM python:3.10.6-bullseye
+FROM python:3.9.6-bullseye
 
 ENV PYTHONUNBUFFERED 1
 COPY ./requirements.txt /requirements.txt
