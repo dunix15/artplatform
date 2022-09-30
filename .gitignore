@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Project specific
+.idea/
+
+# Unit tests
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+venv/
+
+# local files
+data/
+media/

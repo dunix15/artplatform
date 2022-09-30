@@ -1,0 +1,12 @@
+celery
+django~=4.1.0
+djangorestframework
+django-debug-toolbar
+django-dotenv
+django-enumfields
+django-webtest
+drf-yasg
+factory-boy
+psycopg2
+pytest-django
+redis
